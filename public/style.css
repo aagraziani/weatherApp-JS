@@ -1,0 +1,70 @@
+body {
+    font-family: "Nunito", sans-serif;
+    background: url("./img/background-img-laptop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(4,74,96, 0.3);
+    box-shadow: 0 2px 4px rgb(44,44,44,);
+    border-radius: 10px;
+}
+
+h1 {
+    font-weight: 800;
+}
+
+h1, h2, p {
+    color: white;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 70%;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgba(4,74,96, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#responseData {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+
+/* Media queries */
+@media (max-width: 992px) {
+    body {
+        background: url("/public/img/background-img-tablet.png")no-repeat center center fixed; 
+        background-size: cover;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    body {
+        background: url("/public/img/background-img-mobile.png") no-repeat center center fixed; 
+        background-size: cover;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    button {
+        margin-top: 10px;
+    }
+}
